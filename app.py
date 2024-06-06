@@ -2,6 +2,12 @@ import streamlit as st
 from sheet import *
 import pandas as pd
 
+st.set_page_config(
+    page_title="TKI 갈등관리유형 검사지",
+    page_icon="📃"
+)
+
+
 st.title('TKI 갈등관리유형 검사지')
 st.caption('written by Jung Su-In')
 st.divider()
@@ -220,4 +226,5 @@ if st.session_state['check'] :
                                                 'text-align' : 'center'}).set_table_styles(styles)
         st.markdown("<h3 style='text-align: center; color: black;'>< TKI 검사 결과 ></h3>", unsafe_allow_html=True)
         st.table(styled)
-        st.write("응답하시느라 고생 많으셨어요. 이제 프로파일지에 점수를 체크해주세요!😁")
+        st.write("응답하시느라 고생 많으셨어요.")
+        st.write("이제 프로파일지에 점수를 체크해주세요!😁")
