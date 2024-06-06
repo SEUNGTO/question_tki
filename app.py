@@ -218,5 +218,6 @@ if st.session_state['check'] :
 
         styled = answer.style.set_properties(**{'font-size': '20px',
                                                 'text-align' : 'center'}).set_table_styles(styles)
+        st.write('### < TKI 갈등관리유형 점수 >')
         st.table(styled)
         st.write("응답하시느라 고생 많으셨어요. 이제 프로파일지에 점수를 체크해주세요!😁")
