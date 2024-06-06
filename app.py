@@ -154,7 +154,7 @@ if st.session_state['check'] :
 
     if submit and len(tmp) > 0 :
         st.error('아직 응답하지 않은 문항이 있어요.')
-        st.error(f"아직 {', '.join(tmp)}번에 아직 응답하지 않으셨어요.")
+        st.info(f"{', '.join(tmp)}번 문항에 응답해주신 후에 답변 완료를 눌러주세요.")
 
     if submit and len(tmp) == 0 :
         answer = {
