@@ -53,91 +53,91 @@ if st.session_state['check'] :
     Q01 = st.radio('**Q01**', question_sheet['Q01'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q02 = st.radio('**Q02**', question_sheet['Q02'], index = None)
+    Q02 = st.radio('**Q02**', question_sheet['Q02'], index = None captions = ['  ', '  '])
     st.divider()
 
-    Q03 = st.radio('**Q03**', question_sheet['Q03'], index = None)
+    Q03 = st.radio('**Q03**', question_sheet['Q03'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q04 = st.radio('**Q04**', question_sheet['Q04'], index = None)
+    Q04 = st.radio('**Q04**', question_sheet['Q04'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q05 = st.radio('**Q05**', question_sheet['Q05'], index = None)
+    Q05 = st.radio('**Q05**', question_sheet['Q05'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q06 = st.radio('**Q06**', question_sheet['Q06'], index = None)
+    Q06 = st.radio('**Q06**', question_sheet['Q06'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q07 = st.radio('**Q07**', question_sheet['Q07'], index = None)
+    Q07 = st.radio('**Q07**', question_sheet['Q07'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q08 = st.radio('**Q08**', question_sheet['Q08'], index = None)
+    Q08 = st.radio('**Q08**', question_sheet['Q08'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q09 = st.radio('**Q09**', question_sheet['Q09'], index = None)
+    Q09 = st.radio('**Q09**', question_sheet['Q09'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q10 = st.radio('**Q10**', question_sheet['Q10'], index = None)
+    Q10 = st.radio('**Q10**', question_sheet['Q10'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q11 = st.radio('**Q11**', question_sheet['Q11'], index = None)
+    Q11 = st.radio('**Q11**', question_sheet['Q11'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q12 = st.radio('**Q12**', question_sheet['Q12'], index = None)
+    Q12 = st.radio('**Q12**', question_sheet['Q12'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q13 = st.radio('**Q13**', question_sheet['Q13'], index = None)
+    Q13 = st.radio('**Q13**', question_sheet['Q13'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q14 = st.radio('**Q14**', question_sheet['Q14'], index = None)
+    Q14 = st.radio('**Q14**', question_sheet['Q14'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q15 = st.radio('**Q15**', question_sheet['Q15'], index = None)
+    Q15 = st.radio('**Q15**', question_sheet['Q15'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q16 = st.radio('**Q16**', question_sheet['Q16'], index = None)
+    Q16 = st.radio('**Q16**', question_sheet['Q16'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q17 = st.radio('**Q17**', question_sheet['Q17'], index = None)
+    Q17 = st.radio('**Q17**', question_sheet['Q17'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q18 = st.radio('**Q18**', question_sheet['Q18'], index = None)
+    Q18 = st.radio('**Q18**', question_sheet['Q18'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q19 = st.radio('**Q19**', question_sheet['Q19'], index = None)
+    Q19 = st.radio('**Q19**', question_sheet['Q19'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q20 = st.radio('**Q20**', question_sheet['Q20'], index = None)
+    Q20 = st.radio('**Q20**', question_sheet['Q20'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q21 = st.radio('**Q21**', question_sheet['Q21'], index=None)
+    Q21 = st.radio('**Q21**', question_sheet['Q21'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q22 = st.radio('**Q22**', question_sheet['Q22'], index=None)
+    Q22 = st.radio('**Q22**', question_sheet['Q22'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q23 = st.radio('**Q23**', question_sheet['Q23'], index=None)
+    Q23 = st.radio('**Q23**', question_sheet['Q23'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q24 = st.radio('**Q24**', question_sheet['Q24'], index=None)
+    Q24 = st.radio('**Q24**', question_sheet['Q24'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q25 = st.radio('**Q25**', question_sheet['Q25'], index=None)
+    Q25 = st.radio('**Q25**', question_sheet['Q25'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q26 = st.radio('**Q26**', question_sheet['Q26'], index=None)
+    Q26 = st.radio('**Q26**', question_sheet['Q26'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q27 = st.radio('**Q27**', question_sheet['Q27'], index=None)
+    Q27 = st.radio('**Q27**', question_sheet['Q27'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q28 = st.radio('**Q28**', question_sheet['Q28'], index=None)
+    Q28 = st.radio('**Q28**', question_sheet['Q28'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q29 = st.radio('**Q29**', question_sheet['Q29'], index=None)
+    Q29 = st.radio('**Q29**', question_sheet['Q29'], index=None, captions = ['  ', '  '])
     st.divider()
 
-    Q30 = st.radio('**Q30**', question_sheet['Q30'], index=None)
+    Q30 = st.radio('**Q30**', question_sheet['Q30'], index=None, captions = ['  ', '  '])
     st.divider()
 
 
