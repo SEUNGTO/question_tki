@@ -49,7 +49,13 @@ if st.session_state['check'] :
     st.write('') # 공백
     st.write('') # 공백
 
-
+    st.markdown("""
+    <style>
+    [role=radiogroup]{
+        gap: 10rem;
+    }
+    </style>
+    """,unsafe_allow_html=True)
     Q01 = st.radio('**Q01**', question_sheet['Q01'], index = None, captions = ['  ', '  '])
     st.divider()
 
