@@ -53,7 +53,7 @@ if st.session_state['check'] :
     Q01 = st.radio('**Q01**', question_sheet['Q01'], index = None, captions = ['  ', '  '])
     st.divider()
 
-    Q02 = st.radio('**Q02**', question_sheet['Q02'], index = None captions = ['  ', '  '])
+    Q02 = st.radio('**Q02**', question_sheet['Q02'], index = None, captions = ['  ', '  '])
     st.divider()
 
     Q03 = st.radio('**Q03**', question_sheet['Q03'], index = None, captions = ['  ', '  '])
