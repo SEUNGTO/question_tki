@@ -50,7 +50,7 @@ if st.session_state['check'] :
     st.write('') # 공백
 
 
-    Q01 = st.radio('**Q01**', question_sheet['Q01'], index = None)
+    Q01 = st.radio('**Q01**', question_sheet['Q01'], index = None, caption = ['  ', '  '])
     st.divider()
 
     Q02 = st.radio('**Q02**', question_sheet['Q02'], index = None)
