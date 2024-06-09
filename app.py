@@ -52,7 +52,7 @@ if st.session_state['check'] :
     st.markdown("""
     <style>
     [role=radiogroup]{
-        gap: 10rem;
+        gap: 1rem;
     }
     </style>
     """,unsafe_allow_html=True)
